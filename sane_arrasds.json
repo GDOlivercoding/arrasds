@@ -1,0 +1,668 @@
+[
+    {
+        "time": "20.3.2025 14:25:10",
+        "age": 16,
+        "besttank": [
+            "Overlord"
+        ],
+        "teamtype": "Ffa",
+        "favmodes": [
+            "Capture The Flag"
+        ],
+        "growth": "They should be removed",
+        "ar": "I dont mind them",
+        "liketank": null,
+        "hatetank": [
+            "Spreadshot"
+        ],
+        "highscore": 3700000,
+        "highscoretank": "Overlord"
+    },
+    {
+        "time": "20.3.2025 15:03:30",
+        "age": 17,
+        "besttank": [
+            "Mega Smasher"
+        ],
+        "teamtype": "Ffa",
+        "favmodes": [
+            "Normal"
+        ],
+        "growth": "They should be removed",
+        "ar": "I dont mind them",
+        "liketank": [
+            "Mega Smasher"
+        ],
+        "hatetank": null,
+        "highscore": 3000000,
+        "highscoretank": "Mega Smasher"
+    },
+    {
+        "time": "20.3.2025 16:07:47",
+        "age": 16,
+        "besttank": [
+            "Auto Spawner"
+        ],
+        "teamtype": "Duos",
+        "favmodes": [
+            "Domination"
+        ],
+        "growth": "Growth modes are the modes i play the most",
+        "ar": "I dont mind them",
+        "liketank": null,
+        "hatetank": [
+            "Overlord"
+        ],
+        "highscore": 1040000,
+        "highscoretank": "Desmos"
+    },
+    {
+        "time": "20.3.2025 16:16:44",
+        "age": 15,
+        "besttank": [
+            "Crossbow"
+        ],
+        "teamtype": "Ffa",
+        "favmodes": [
+            "Siege",
+            "Tetromino"
+        ],
+        "growth": "They should be removed",
+        "ar": "I hate them",
+        "liketank": [
+            "Auto Builder"
+        ],
+        "hatetank": [
+            "Factory"
+        ],
+        "highscore": 575139,
+        "highscoretank": "Quadruplex"
+    },
+    {
+        "time": "20.3.2025 16:52:55",
+        "age": 16,
+        "besttank": [
+            "Auto Overseer"
+        ],
+        "teamtype": "Ffa",
+        "favmodes": [
+            "Siege",
+            "Ffa",
+            "Maze",
+            "2Tdm",
+            "4Tdm"
+        ],
+        "growth": "I dont mind them",
+        "ar": "I like them",
+        "liketank": [
+            "Battleship"
+        ],
+        "hatetank": [
+            "Engineer"
+        ],
+        "highscore": 1000000,
+        "highscoretank": "Battleship"
+    },
+    {
+        "time": "20.3.2025 16:58:01",
+        "age": 21,
+        "besttank": [
+            "Auto Spawner"
+        ],
+        "teamtype": "4Tdm",
+        "favmodes": [
+            "Maze Ffa"
+        ],
+        "growth": "I dont like them",
+        "ar": "I like them",
+        "liketank": [
+            "Bushwhacker"
+        ],
+        "hatetank": [
+            "Annihilator",
+            "Spawner",
+            "Auto Spawner",
+            "Factory"
+        ],
+        "highscore": 800000,
+        "highscoretank": "Triplex"
+    },
+    {
+        "time": "20.3.2025 17:10:11",
+        "age": 18,
+        "besttank": [
+            "Auto Spawner"
+        ],
+        "teamtype": "3Tdm",
+        "favmodes": [
+            "Maze 2Tdm",
+            "Maze Open 3Tdm"
+        ],
+        "growth": "I dont like them",
+        "ar": "I like them",
+        "liketank": [
+            "Auto Smasher"
+        ],
+        "hatetank": [
+            "Auto Spawner",
+            "Overlord"
+        ],
+        "highscore": 1300000,
+        "highscoretank": "Auto Smasher"
+    },
+    {
+        "time": "20.3.2025 19:04:10",
+        "age": 23,
+        "besttank": [
+            "Armsman"
+        ],
+        "teamtype": "Duos",
+        "favmodes": [
+            "Arms Race Maze Clan Wars"
+        ],
+        "growth": "I dont like them",
+        "ar": "Arms Race modes are the modes i play the most",
+        "liketank": null,
+        "hatetank": null,
+        "highscore": 4000000,
+        "highscoretank": "Crop Duster"
+    },
+    {
+        "time": "20.3.2025 19:47:53",
+        "age": null,
+        "besttank": [
+            "Stalker"
+        ],
+        "teamtype": "Ffa, Duos",
+        "favmodes": [
+            "Ffa Maze"
+        ],
+        "growth": "I dont like them",
+        "ar": "I like them",
+        "liketank": [
+            "Armsman"
+        ],
+        "hatetank": [
+            "Overlord",
+            "Factory",
+            "Auto Spawner"
+        ],
+        "highscore": 1000000,
+        "highscoretank": "Armsman"
+    },
+    {
+        "time": "20.3.2025 20:27:37",
+        "age": 17,
+        "besttank": [
+            "Overlord"
+        ],
+        "teamtype": "Squads",
+        "favmodes": [
+            "Arms Race Growth",
+            "Overgrowth"
+        ],
+        "growth": "Growth modes are the modes i play the most",
+        "ar": "I love them",
+        "liketank": null,
+        "hatetank": null,
+        "highscore": 250000,
+        "highscoretank": "Annihilator"
+    },
+    {
+        "time": "20.3.2025 21:41:47",
+        "age": null,
+        "besttank": [
+            "Auto Spawner"
+        ],
+        "teamtype": "Clan Wars",
+        "favmodes": [
+            "Maze Ffa",
+            "Growth Clan Wars",
+            "Arms Race Siege"
+        ],
+        "growth": "I dont like them",
+        "ar": "I dont like them",
+        "liketank": [
+            "Auto Builder"
+        ],
+        "hatetank": [
+            "Overlord"
+        ],
+        "highscore": 1700000,
+        "highscoretank": "Constructor"
+    },
+    {
+        "time": "21.3.2025 1:11:34",
+        "age": 13,
+        "besttank": [
+            "Crossbow"
+        ],
+        "teamtype": "4Tdm",
+        "favmodes": [
+            "4Tdm"
+        ],
+        "growth": "I dont mind them",
+        "ar": "I dont mind them",
+        "liketank": null,
+        "hatetank": null,
+        "highscore": 1600000,
+        "highscoretank": "Crop Duster"
+    },
+    {
+        "time": "21.3.2025 4:04:44",
+        "age": 23,
+        "besttank": [
+            "Engineer",
+            "Crossbow",
+            "Auto Triangle"
+        ],
+        "teamtype": "Ffa",
+        "favmodes": null,
+        "growth": "I dont like them",
+        "ar": "I dont mind them",
+        "liketank": [
+            "Crossbow"
+        ],
+        "hatetank": null,
+        "highscore": null,
+        "highscoretank": null
+    },
+    {
+        "time": "21.3.2025 6:58:52",
+        "age": null,
+        "besttank": [
+            "Octo Tank",
+            "Cyclone"
+        ],
+        "teamtype": "Clan Wars",
+        "favmodes": [
+            "Arms Race Growth Clan Wars"
+        ],
+        "growth": "Growth modes are the modes i play the most",
+        "ar": "Arms Race modes are the modes i play the most",
+        "liketank": [
+            "Octo Tank"
+        ],
+        "hatetank": [
+            "Pounder"
+        ],
+        "highscore": 132000,
+        "highscoretank": "Octo Tank"
+    },
+    {
+        "time": "21.3.2025 12:20:57",
+        "age": 16,
+        "besttank": [
+            "Pentashot"
+        ],
+        "teamtype": "Squads",
+        "favmodes": [
+            "Ffa",
+            "Squads",
+            "4Tdm"
+        ],
+        "growth": "They should be removed",
+        "ar": "I dont mind them",
+        "liketank": [
+            "Predator"
+        ],
+        "hatetank": [
+            "Auto 4"
+        ],
+        "highscore": 7200000,
+        "highscoretank": "Predator"
+    },
+    {
+        "time": "21.3.2025 12:42:17",
+        "age": 28,
+        "besttank": null,
+        "teamtype": "Ffa",
+        "favmodes": [
+            "Capture The Flag",
+            "2Tdm Maze Domination"
+        ],
+        "growth": "I dont like them",
+        "ar": "I dont like them",
+        "liketank": [
+            "Overtrapper"
+        ],
+        "hatetank": [
+            "Stalker"
+        ],
+        "highscore": 2000000,
+        "highscoretank": "Annihilator"
+    },
+    {
+        "time": "21.3.2025 13:16:59",
+        "age": 10,
+        "besttank": [
+            "Steamliner"
+        ],
+        "teamtype": "Clan Wars",
+        "favmodes": [
+            "Growth Arms Race Clan Wars"
+        ],
+        "growth": "Growth modes are the modes i play the most",
+        "ar": "Arms Race modes are the modes i play the most",
+        "liketank": [
+            "Streamliner"
+        ],
+        "hatetank": [
+            "Overlord"
+        ],
+        "highscore": 198000,
+        "highscoretank": "Steamliner"
+    },
+    {
+        "time": "21.3.2025 13:19:35",
+        "age": 19,
+        "besttank": [
+            "Auto Spawner"
+        ],
+        "teamtype": "2Tdm",
+        "favmodes": [
+            "2Tdm"
+        ],
+        "growth": "They should be removed",
+        "ar": "I like them",
+        "liketank": [
+            "Auto Spawner"
+        ],
+        "hatetank": [
+            "Crossbow"
+        ],
+        "highscore": 18900000,
+        "highscoretank": "Auto Spawner"
+    },
+    {
+        "time": "21.3.2025 14:09:19",
+        "age": 20,
+        "besttank": [
+            "Overlord"
+        ],
+        "teamtype": "2Tdm",
+        "favmodes": [
+            "Arms Race Siege",
+            "2Dtm"
+        ],
+        "growth": "I dont mind them",
+        "ar": "I like them",
+        "liketank": [
+            "Overlord"
+        ],
+        "hatetank": [
+            "Penta Shot"
+        ],
+        "highscore": 2000000,
+        "highscoretank": "Auto Overseer"
+    },
+    {
+        "time": "21.3.2025 15:14:25",
+        "age": 8,
+        "besttank": null,
+        "teamtype": "Clan Wars",
+        "favmodes": [
+            "Clan Wars"
+        ],
+        "growth": "Growth modes are the modes i play the most",
+        "ar": "Arms Race modes are the modes i play the most",
+        "liketank": null,
+        "hatetank": null,
+        "highscore": null,
+        "highscoretank": null
+    },
+    {
+        "time": "21.3.2025 15:15:54",
+        "age": 14,
+        "besttank": [
+            "Overlord"
+        ],
+        "teamtype": "2Tdm",
+        "favmodes": [
+            "2Tdm"
+        ],
+        "growth": "I dont mind them",
+        "ar": "I like them",
+        "liketank": [
+            "Octo Tank"
+        ],
+        "hatetank": null,
+        "highscore": 2000000,
+        "highscoretank": "Octo Tank"
+    },
+    {
+        "time": "21.3.2025 15:16:01",
+        "age": 18,
+        "besttank": [
+            "Overlord"
+        ],
+        "teamtype": "2Tdm",
+        "favmodes": [
+            "Dv1"
+        ],
+        "growth": "Growth modes are the modes i play the most",
+        "ar": "I like them",
+        "liketank": [
+            "Overgunner"
+        ],
+        "hatetank": [
+            "Fork"
+        ],
+        "highscore": 976000,
+        "highscoretank": "Overgunner"
+    },
+    {
+        "time": "21.3.2025 15:16:36",
+        "age": 13,
+        "besttank": [
+            "Pentashot"
+        ],
+        "teamtype": "2Tdm",
+        "favmodes": [
+            "Dv1"
+        ],
+        "growth": "I dont mind them",
+        "ar": "I like them",
+        "liketank": [
+            "Pentashot",
+            "Constructor"
+        ],
+        "hatetank": [
+            "Big Cheese"
+        ],
+        "highscore": 500000,
+        "highscoretank": "Constructor"
+    },
+    {
+        "time": "21.3.2025 15:37:46",
+        "age": 15,
+        "besttank": [
+            "Auto Spawner"
+        ],
+        "teamtype": "Squads",
+        "favmodes": [
+            "Ffa Maze",
+            "Tetromino",
+            "Capture The Flag"
+        ],
+        "growth": "I dont like them",
+        "ar": "I like them",
+        "liketank": [
+            "Phoenix"
+        ],
+        "hatetank": [
+            "Engineer",
+            "Fortress"
+        ],
+        "highscore": 2000000,
+        "highscoretank": "Crossbow"
+    },
+    {
+        "time": "21.3.2025 15:44:30",
+        "age": null,
+        "besttank": [
+            "Architect"
+        ],
+        "teamtype": "Clan Wars",
+        "favmodes": [
+            "Clan Wars"
+        ],
+        "growth": "I dont mind them",
+        "ar": "I dont mind them",
+        "liketank": [
+            "Architect"
+        ],
+        "hatetank": [
+            "Penta Shot"
+        ],
+        "highscore": 1000000,
+        "highscoretank": "Swarmer"
+    },
+    {
+        "time": "21.3.2025 15:53:18",
+        "age": 13,
+        "besttank": [
+            "Assembler"
+        ],
+        "teamtype": "Siege",
+        "favmodes": [
+            "Arms Race Siege"
+        ],
+        "growth": "I dont mind them",
+        "ar": "I like them",
+        "liketank": [
+            "Auto Builder"
+        ],
+        "hatetank": [
+            "Overlord"
+        ],
+        "highscore": null,
+        "highscoretank": null
+    },
+    {
+        "time": "21.3.2025 15:54:46",
+        "age": 20,
+        "besttank": [
+            "Auto Spawner"
+        ],
+        "teamtype": "2Tdm",
+        "favmodes": [
+            "Growth"
+        ],
+        "growth": "Growth modes are the modes i play the most",
+        "ar": "I like them",
+        "liketank": [
+            "Auto Spawner"
+        ],
+        "hatetank": [
+            "Fork"
+        ],
+        "highscore": null,
+        "highscoretank": null
+    },
+    {
+        "time": "21.3.2025 17:05:29",
+        "age": null,
+        "besttank": [
+            "Basic"
+        ],
+        "teamtype": "Ffa",
+        "favmodes": [
+            "Ffa"
+        ],
+        "growth": "They should be removed",
+        "ar": "I hate them",
+        "liketank": [
+            "Basic"
+        ],
+        "hatetank": [
+            "Overlord"
+        ],
+        "highscore": 3000000,
+        "highscoretank": null
+    },
+    {
+        "time": "21.3.2025 17:25:04",
+        "age": 10,
+        "besttank": [
+            "Auto Overseer"
+        ],
+        "teamtype": "Ffa",
+        "favmodes": [
+            "Capture The Flag"
+        ],
+        "growth": "I love them",
+        "ar": "I like them",
+        "liketank": null,
+        "hatetank": null,
+        "highscore": 800000,
+        "highscoretank": "Ranger"
+    },
+    {
+        "time": "21.3.2025 21:07:39",
+        "age": 17,
+        "besttank": [
+            "Auto Spawner"
+        ],
+        "teamtype": "2Tdm",
+        "favmodes": [
+            "Arms Race Maze 2Tdm",
+            "2 Team Maze Domination",
+            "Capture The Flag",
+            "Space",
+            "Arms Race Assault"
+        ],
+        "growth": "They should be removed",
+        "ar": "Arms Race modes are the modes i play the most",
+        "liketank": [
+            "Atomizer"
+        ],
+        "hatetank": [
+            "Auto Spawner"
+        ],
+        "highscore": 2000000,
+        "highscoretank": "Poacher"
+    },
+    {
+        "time": "22.3.2025 1:20:23",
+        "age": 11,
+        "besttank": [
+            "Pentashot"
+        ],
+        "teamtype": "Ffa",
+        "favmodes": [
+            "Growth Manhunt"
+        ],
+        "growth": "Growth modes are the modes i play the most",
+        "ar": "I dont mind them",
+        "liketank": [
+            "Penta Shot"
+        ],
+        "hatetank": [
+            "Overlord"
+        ],
+        "highscore": 1340000,
+        "highscoretank": "Penta Shot"
+    },
+    {
+        "time": "22.3.2025 3:14:42",
+        "age": 17,
+        "besttank": [
+            "Factory"
+        ],
+        "teamtype": "Squads",
+        "favmodes": [
+            "Arms Race"
+        ],
+        "growth": "Growth modes are the modes i play the most",
+        "ar": "Arms Race modes are the modes i play the most",
+        "liketank": [
+            "Factory"
+        ],
+        "hatetank": [
+            "Factory"
+        ],
+        "highscore": 890000,
+        "highscoretank": "Factory"
+    }
+]
