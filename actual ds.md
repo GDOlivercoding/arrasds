@@ -1,6 +1,12 @@
 (This includes my submission)
-Average Highscore: 2.3m, Mine: 2m
-Average age of an arras.io player: 16.4 years old, I am 15.1~ years old
+
+**Average Highscore**: 2.3m, Mine: 2m
+
+**Average age of an arras.io player**: 16.4 years old, I am 15.1~ years old
+
+<img src="saved_figs/player_count_ratio_to_age.png" width=350>
+
+You can see theres a lot of teenagers playing and some adults too!
 
 Dates of submissions:
 

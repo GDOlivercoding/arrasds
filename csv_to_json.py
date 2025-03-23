@@ -4,19 +4,20 @@ from pathlib import Path
 
 
 def convert_csv_to_json(csvpath: Path, *, map: dict[str, str] | None = None):
-    with csvpath.open("r", newline='', encoding="utf-8") as csvfile:
+    with csvpath.open("r", newline="", encoding="utf-8") as csvfile:
         reader = csv.DictReader(csvfile)
         d: list[dict[str, str]] = []
         if map is None:
             with csvpath.with_suffix(".json").open("w") as js:
                 js.write(json.dumps(list(reader), indent=4))
-                return 
-        
+                return
+
         for entry in reader:
             d.append({map[k]: v for k, v in entry.items()})
 
         with csvpath.with_suffix(".json").open("w") as js:
             js.write(json.dumps(d, indent=4))
+
 
 text_mapping = {
     "Časová značka": "time",
@@ -29,5 +30,5 @@ text_mapping = {
     "What tank do you like the most? (no arms race please)": "liketank",
     "What tank do you hate the most? (When facing them, no arms race)": "hatetank",
     "Whats your highscore in normal modes? (No arms race, minigames or growth)": "highscore",
-    "Following the last question, what tank did you use?": "highscoretank"
+    "Following the last question, what tank did you use?": "highscoretank",
 }
