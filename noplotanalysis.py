@@ -1,6 +1,6 @@
 from collections.abc import Iterable, Sequence
 from datetime import datetime
-from typing import Any
+from typing import TYPE_CHECKING, Any
 from dataclasses import dataclass
 from pathlib import Path
 import json
@@ -62,6 +62,27 @@ def get_iter(contents: Sequence[Entry], attrname: str) -> list[Any]:
             )
         return []
 
+    # The following code is confusing due to the way python
+    # nested for list comp loops work
+
+    # Equivalent is as follows:
+    if TYPE_CHECKING:
+        temp: list[Any] = []
+        for entry in contents:
+            listornot_iter = (
+                getattr(entry, attrname)
+                if isinstance(getattr(entry, attrname), Iterable)
+                and not isinstance(getattr(entry, attrname), str)
+                else [getattr(entry, attrname)]
+            ) # If the attr is Iterable (and not str), proceed, else create a single element list from attr
+
+            for listornot in listornot_iter:
+                # Here we do the same thing as above
+                for item in (listornot if isinstance(listornot, list) else [listornot]):
+                    if item is not None:
+                        temp.append(item)
+        #return temp
+        
     return [
         item
         for entry in contents
@@ -87,7 +108,7 @@ contents: list[Entry] = [Entry(**e) for e in json.load(ds_file.open())]
 
 def invalid_fav_tanks():
     print(
-        f"And there were {sum(1 for tank in [s.liketank for s in contents] if tank is None)} invalid picks."
+        f"And there were {len(get_iter(contents, 'liketank'))} invalid picks."
     )
     print(f"Out of {len(contents)} submissions.")
 
