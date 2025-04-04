@@ -1,6 +1,6 @@
 import json
 from pathlib import Path
-from typing import TYPE_CHECKING, Literal, Never, TypedDict, overload
+from typing import TYPE_CHECKING, Any, Literal, Never, TypedDict, overload
 
 
 class Entry(TypedDict):
@@ -18,17 +18,14 @@ class Entry(TypedDict):
 
 
 class NS:
-    def __getattr__(self, name: str) -> str | None:
+    def __getattr__(self, name: str) -> Any:
         raise AttributeError(
             f"{self.__class__.__name__!r} object has no attribute {name!r}."
         )
 
     if TYPE_CHECKING:
-
-        def __setattr__(self, name, setter) -> None:
-            raise AttributeError(
-                f"{self.__class__.__name__!r} object has no attribute {name!r}."
-            )
+        def __setattr__(self, name: str, setter: Any) -> None:
+            pass
 
 
 @overload
@@ -40,6 +37,16 @@ def deformat_score(score: Literal[None]) -> None: ...
 
 
 def deformat_score(score: str | None) -> int | None:
+    """
+    deformat a humanly readable Arras.io score
+
+    if score is convertible to int, return it converted
+    supported, "k", "m" and "b" suffixed (case insensitive)
+    
+    deformat_score("1_200_000") -> 1_200_000
+    deformat_score("1b") -> 1_000_000_000
+    deformat_score("523K") -> 523_000
+    """
     if score is None:
         return None
 

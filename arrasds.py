@@ -1,11 +1,8 @@
-from collections.abc import Iterable, Mapping, Sequence
-from typing import Any, Protocol, TYPE_CHECKING
+from collections.abc import Iterable, Sequence
+from typing import Any
 from dataclasses import dataclass
 from pathlib import Path
 import json
-
-if TYPE_CHECKING:
-    from _typeshed import SupportsRichComparison
 
 @dataclass
 class Entry:
@@ -20,17 +17,6 @@ class Entry:
     hatetank: list[str] | None
     highscore: int | None
     highscoretank: str | None
-
-    class CustomNamespace:
-        """
-        A namespace for an entry.
-        Just a simple namespace with a little bit of typing.
-        """
-
-        def __getattr__(self, name: str) -> str:
-            raise AttributeError(
-                f"{self.__class__.__name__!r} object has no attribute {name!r}."
-            )
 
     def __repr__(self):
         return f"<Entry {' '.join([f'{k}={str(v)}' for k, v in vars(self).items()])}>"
@@ -94,11 +80,7 @@ def count_per_age():
 
 
 def favorite_tanks():
-    # This whole function is a little weird and cursed,
-    # first, let's recognize the way nested for loops work
-    # in list comprehensions.
     tanks: list[str] = get_iter(contents, "liketank")
-    # We sort the dict, by value and return keys
 
     d: dict[str, int] = {}
 
@@ -139,7 +121,7 @@ def average_score():
 def growth_opinions():
     opinions = get_iter(contents, "growth")
 
-    d = {}
+    d: dict[str, int] = {}
     for opinion in opinions:
         item = d.get(opinion, 0) + 1
         d[opinion] = item
@@ -169,6 +151,7 @@ if __name__ == "__main__":
     # function call here
     arms_race_opinions()
 
+    # You can safely ignore all the warnings the call below emits
     plt.legend()
     plt.grid()
     plt.tight_layout()

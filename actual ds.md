@@ -23,4 +23,4 @@ Most people submitted a response on the 16th minute of the hour (4 people)
 
 The second statistics are completely all over the place and not worth displaying.
 
-The average person submitted a response on 21.03.2025 at 15:16:xx GMT+2 time
+The average person submitted a response on 21.03.2025 at 15:16:xx (if all submittors were in GMT+2 time)
